@@ -1,0 +1,92 @@
+html {
+    height: 100vh;
+    background-color: #FDE4DE;
+}
+body{
+    
+    background-image:url(./gifs/bg.gif);
+    background-size: 250px;
+    
+}
+.nav-item > a{
+    color: black;
+}
+.navbar {
+    background-color: #FEFFE2;
+    border-style: solid;
+    border-width: medium;
+    border-color: #003060;
+}
+.container{
+    padding: 35px 0px;
+    background-color: #FFC2C3
+}
+
+
+.container ul a 
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:20px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.p-3{
+    background-color: #FFEBEB;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom: dashed;
+    border-left: dashed;
+    border-right: dashed;
+    border-width: medium;
+    border-color: #003060;
+    
+}
+.p-3 > h3{
+    padding:20px 50px;
+}
+.flo >img {
+    position: relative;
+    top:280px;
+    max-width: 500px;
+    max-height: 400px;
+}
+.ccc > img {
+    position: relative;
+    top:470px;
+    left: 350px;
+    max-width: 400px;
+    max-height: 400px;
+}
+.col-6{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.col-6 > img {
+    width:500px;
+    height:340px;  
+    border-style: solid;
+    border-width: medium;
+    border-color:#28004D;
+}
+.col-5 {
+    margin-top: 30px; 
+    border-color: #B34400;
+    border-style: solid;
+    border-width: medium;
+    background-color:#FFE6D6;	
+}
+.col-5 > h3{
+    font-weight:500;
+    font-size:35px;
+    line-height:77px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+h6{
+    text-align: center;
+}
